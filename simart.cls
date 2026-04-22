@@ -124,7 +124,8 @@
 
 
 %----------------------------------------------------------------------------------------
-% PREAMBLE OF BIBLIOGRAPHY
+% PREAMBLE OF OLD BIBLIOGRAPHYA
+% cite and citep
 \usepackage[round]{natbib}
 \setcitestyle{open={(},close={)}}
 %\def\biblio{\bibliographystyle{apalike}\bibliography{references.bib}} % bliography in subfile use with onlysubfile
@@ -134,6 +135,21 @@
 \makeatother
 
 %\renewcommand{\bibsection}{\noindent\textbf{ DAFTAR PUSTAKA}} %Change Title Bibliography
+
+
+%----------------------------------------------------------------------------------------
+% PREAMBLE OF MODERN BIBLIOGRAPHY
+% citet and citep
+% \usepackage[
+% 	backend=biber,
+% 	style=authoryear-icomp,
+% 	sortlocale=de_DE,
+% 	natbib=true,
+% 	url=false,
+% 	doi=true,
+% 	eprint=false
+% ]{biblatex}
+% \addbibresource{bibliography.bib}
 
 %----------------------------------------------------------------------------------------
 % CONFIGURATION OF SUBFILE
