@@ -39,3 +39,5 @@
 *.xref
 *.lg
 *.svg
+*.bcf
+*.run.xml
