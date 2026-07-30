@@ -48,13 +48,13 @@ Kadang, html file menghilangkan _hyperlink_ pada sitasi. Maka, convert ke file d
 
 ### Standard Pandoc Convertion
 
-`pandoc waffle.tex --filter pandoc-crossref --bibliography=waffle_243.bib --citeproc --csl ieee.csl -o result.docx`
+`pandoc filename.tex --filter pandoc-crossref --bibliography=waffle_243.bib --citeproc --csl ieee.csl -o result.docx`
 
 Download ieee.csl from [link](https://github.com/citation-style-language)
 
 ### Using template Pandoc Convertion
 
-`pandoc waffle.tex --reference-docx=test_template.doc`
+`pandoc filename.tex --reference-docx=test_template.doc`
 
 ## Datetime2 for bahasai
 
