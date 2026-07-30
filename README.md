@@ -44,6 +44,7 @@ Kadang, html file menghilangkan _hyperlink_ pada sitasi. Maka, convert ke file d
 ## Pandoc (word convertion)
 
 - download pandoc-crossref, After unpacking the pre-built executables, you may want to copy them in the same directory that pandoc.exe was installed in (that is, in C:\Program Files\Pandoc\), provided that directory has been added to PATH environment variable.
+- download gaya sitasi ieee atau apa dengan extensi csl, https://github.com/citation-style-language.
 
 ### Standard Pandoc Convertion
 
